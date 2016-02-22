@@ -62,7 +62,7 @@ var total;
  this.integers = integers.sort(function(a,b)
  	{return a-b}).reverse(function reversing() 
  	{return sortedInt}).filter(function filter(sortedInt[0,1,2,3]){return sortedInt}).map(this).reduce(function(prev, curr){
-   return prev + curr});
+   return prev + curr}); return this;
 
 
 
